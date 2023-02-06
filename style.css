@@ -78,9 +78,13 @@ section{
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-footer{
+
+footer {
     padding 50px;
     text-align: center;
+    border: solid black;
+    background-color: lightgrey;
+
 }
 #first_section {
     
@@ -92,3 +96,11 @@ footer{
 #third_section {
     background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('background3.jpg');
 }
+#first_paragraph {
+    padding: 30vh;
+    text-align: left;
+    font-size: 30px;
+    justify-content: left;
+}
+    
+
