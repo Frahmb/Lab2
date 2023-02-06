@@ -1,0 +1,94 @@
+﻿header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    border: solid black;
+    color: white;
+    text-align: center;
+    background-color: lightgrey;
+    margin: 4px 1.5vh;
+    padding: 0px 10px;
+}
+header*{
+    diplay: inline;
+    height: 50px;
+}
+
+p{
+    font-size: 40px;
+}
+body {
+    margin: 0;
+    margin-top: 50px;
+    font-family: sans-serif;
+}
+
+a {
+    
+    text-align: center;
+    margin: 2px 1.5vh;
+    padding: 10px 15px;
+}
+
+#intro_header {
+    align-items: right;
+    align-content: right;
+    color: lightgrey;
+    margin: 0px 15vh;
+    padding: 40px 15px;
+    background-color: darkslategray;
+    background-size: cover;
+    background-position: center center;
+}
+
+button {
+ 
+   
+    background-size: cover;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    padding: 0px -40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px 0px;
+    cursor: pointer;
+}
+    
+}
+ul {
+    padding: 0;
+    text-align: center;
+}
+section{
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+footer{
+    padding 50px;
+    text-align: center;
+}
+#first_section {
+    
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('background1.jpg');
+}
+#second_section {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('background2.jpg');
+}
+#third_section {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('background3.jpg');
+}
